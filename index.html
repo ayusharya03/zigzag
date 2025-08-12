@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Mindful Readers - Empowering Voices Through Reading</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="public/css/style.css" />
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <img src="public/assets/logo.png" alt="The Mindful Readers Logo" class="nav-logo" />
+        <span class="nav-title">The Mindful Readers</span>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#vision" class="nav-link">Vision</a>
+        <a href="#activities" class="nav-link">Activities</a>
+        <a href="#founder" class="nav-link">Founder</a>
+        <a href="#join" class="nav-link">Join Us</a>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <p class="hero-tagline">Empowering Voices • Building Confidence • Creating Community</p>
+        <h1 class="hero-title">The Mindful Readers</h1>
+        <p class="hero-subtitle">
+          A safe, supportive space where individuals overcome communication barriers,
+          practice public speaking, and grow through meaningful book discussions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#join" class="btn btn-primary">Join Our Community</a>
+          <a href="#about" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="public/assets/classroom.jpg" alt="Reading community" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Our Community</h2>
+        <p class="section-subtitle">Building confidence through conversation and connection</p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            The Mindful Readers is a non-profit organization dedicated to anyone who wants to improve their
+            public speaking, communication skills, and become more fluent in English. We provide a judgment-free
+            environment where people can practice speaking, share ideas, and learn to express themselves with
+            confidence.
+          </p>
+          <p>
+            Our book discussions aren't just presentations—they're open conversations where anyone can respond,
+            share different opinions, and contribute to meaningful dialogue. This is a discussion room where we
+            practice public speaking, learn respectful communication, and grow together.
+          </p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Community Members</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Books Discussed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Speaking Sessions</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision Section -->
+  <section id="vision" class="vision">
+    <div class="container">
+      <div class="vision-content">
+        <h2 class="section-title">Our Vision</h2>
+        <p class="vision-text">
+          We aim to build a supportive community where young minds grow through reading, open discussions,
+          and shared insights. We envision empowering individuals with confidence, communication skills,
+          and awareness to connect literature with real-world change.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Activities Section -->
+  <section id="activities" class="activities">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Activities</h2>
+        <p class="section-subtitle">Moments that capture our journey of growth and learning</p>
+      </div>
+
+      <div class="carousel-container">
+        <div class="carousel-track" id="carousel-track">
+          <div class="carousel-slide">
+            <img src="public/assets/activities/activity_1.jpg" alt="Reading session activity" />
+          </div>
+          <div class="carousel-slide">
+            <img src="public/assets/activities/activity_2.jpg" alt="Group discussion activity" />
+          </div>
+          <div class="carousel-slide">
+            <img src="public/assets/activities/activity_3.jpg" alt="Public speaking practice" />
+          </div>
+          <div class="carousel-slide">
+            <img src="public/assets/activities/activity_4.jpg" alt="Community gathering" />
+          </div>
+          <div class="carousel-slide">
+            <img src="public/assets/activities/activity_5.jpg" alt="Book club meeting" />
+          </div>
+          <div class="carousel-slide">
+            <img src="public/assets/activities/activity_6.jpg" alt="Workshop session" />
+          </div>
+          <div class="carousel-slide">
+            <img src="public/assets/activities/activity_7.jpg" alt="Team building activity" />
+          </div>
+          <div class="carousel-slide">
+            <img src="public/assets/activities/activity_8.jpg" alt="Celebration event" />
+          </div>
+        </div>
+
+        <button class="carousel-btn prev" id="prev-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-btn next" id="next-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <div class="carousel-indicators" id="carousel-indicators"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founder's Voice Section -->
+  <section id="founder" class="founder">
+    <div class="container">
+      <div class="founder-content">
+        <div class="founder-profile">
+          <img src="public/assets/team/ayush_arya.png" alt="Ayush Arya - Founder" class="founder-image" />
+          <div class="founder-info">
+            <h3 class="founder-name">Ayush Arya</h3>
+            <p class="founder-title">Founder & Visionary</p>
+          </div>
+        </div>
+
+        <div class="founder-message">
+          <h2 class="section-title">Founder's Voice</h2>
+          <div class="founder-goal">
+            <h3>Our Mission</h3>
+            <p>Creating a safe space where no one fears being judged for their voice or speaking style.</p>
+          </div>
+
+          <div class="founder-story">
+            <p>
+              As someone who struggled with stammering throughout my childhood, I understand the pain of being laughed
+              at
+              for the way you speak. After years of practice, professional guidance, and countless hours of
+              self-improvement,
+              I realized that the solution wasn't just technical—it was having a supportive community to practice with.
+            </p>
+            <p>
+              There are countless individuals suffering in silence, afraid to speak up because of fear of judgment.
+              That's why I created this club—a safe, supportive place with no age restrictions, no judgment,
+              where you can share your thoughts, ideas, and beliefs without fear of becoming a joke.
+            </p>
+            <p class="founder-cta">
+              <strong>We are here for you!</strong> Your voice matters, and together we'll help you find the confidence
+              to share it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Us Section -->
+  <section id="join" class="join-us">
+    <div class="container">
+      <div class="join-content">
+        <h2 class="section-title">Become a Mindful Reader</h2>
+        <p class="join-subtitle">
+          Join a community that reads, reflects, and grows together. No matter your background or speaking level,
+          you have a place here.
+        </p>
+
+        <div class="join-options">
+          <div class="join-card">
+            <div class="join-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Join as Member</h3>
+            <p>Participate in discussions, book readings, and speaking practice sessions.</p>
+            <a href="https://docs.google.com/forms/d/1n3xeX-DiUXUFJiSrnXHlkLUuW4E9VI1ygAOxPDZRv-M/edit"
+              class="btn btn-primary">Register Now</a>
+          </div>
+
+          <div class="join-card">
+            <div class="join-icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h3>Volunteer</h3>
+            <p>Help organize events, mentor others, and contribute to our community growth.</p>
+            <a href="https://docs.google.com/forms/d/1H1Mzo9iX8Xw-Z4v9PKRnirAdJXBS3tMzXZfO2mrz2L8/edit"
+              class="btn btn-secondary">Volunteer Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <img src="public/assets/logo.png" alt="The Mindful Readers" class="footer-logo" />
+            <h3>The Mindful Readers</h3>
+            <p>Connecting curious minds through knowledge and stories.</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Quick Links</h4>
+              <a href="#about">About Us</a>
+              <a href="#vision">Our Vision</a>
+              <a href="#activities">Activities</a>
+              <a href="#founder">Founder's Story</a>
+            </div>
+
+            <div class="footer-column">
+              <h4>Get Involved</h4>
+              <a href="#join">Join Community</a>
+              <a href="sessions.html">Sessions</a>
+              <a href="our-team.html">Our Team</a>
+            </div>
+
+            <div class="footer-column">
+              <h4>Connect</h4>
+              <a href="https://www.instagram.com/themindfullreaders" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+              </a>
+              <a href="https://discord.gg/RpXa5zu43a" target="_blank">
+                <i class="fab fa-discord"></i> Discord
+              </a>
+              <a href="https://www.linkedin.com/in/the-mindfull-readers-06738a379" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+              <a href="mailto:management.tmrs@gmail.com?subject=Inquiry%20from%20Website" target="_blank">
+                <i class="fas fa-envelope"></i> Email
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 The Mindful Readers. All rights reserved. | A non-profit organization dedicated to empowering
+            voices.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="public/js/script.js"></script>
+</body>
+
+</html>
